@@ -1,0 +1,7 @@
+This is a model scoring system, designed to assign weighted scores to an object.
+You create a variant, then call it like this:
+
+sample = PL::Aristotle::Analyst::Variant.new(model_instance)
+sample.process
+
+sample.scorekeeper.percentage #=> A value between 0 and 1
